@@ -1,0 +1,31 @@
+{
+  "name": "Campusmart",
+  "short_name": "Campusmart",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
+  "description": "A student-focused marketplace for the next generation of digital and tech creations.",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Forge New Item",
+      "short_name": "Forge Item",
+      "description": "Create a new listing for a digital item or service.",
+      "url": "/?action=list-item",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}
